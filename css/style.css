@@ -179,12 +179,14 @@ h4 {
     position: static;
     margin: 20px;
   }
+
   #heroGrid{
     grid-template-areas: "featuredProduct featuredProduct"
-    "secondaryProductCTA";
+                        "secondaryProductCTA";
   }
   #categoryGrid{
     grid-template-rows: 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
     grid-template-areas: "bookcases" "bedroom" "patio" "couches" "desks";
   }
+}
